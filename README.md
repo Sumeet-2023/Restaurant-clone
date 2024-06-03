@@ -7,7 +7,6 @@ Welcome to the Gericht frontend repository! This project is a React-based fronte
 - [Project Overview](#project-overview)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Running the Project](#running-the-project)
 - [Available Scripts](#available-scripts)
 - [Components and Containers](#components-and-containers)
 
@@ -36,10 +35,53 @@ To get started with the project, follow these steps:
    ```bash
    npm install
 
-## Running the Project
+## Available Scripts
 
-To start the development server and run the project locally, use:
+In the project directory, you can run:
 
-```bash
-npm start
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+## Components and Containers
+
+The project is organized into two main types of React components: **components** and **containers**.
+
+### Components
+
+Components are smaller, reusable pieces of the UI. They are often used by containers to build the complete interface. Examples of components in this project include:
+
+- **Navbar**
+- **SubHeading**
+- **MenuItem**
+- **FooterOverlay**
+- **Newsletter**
+
+### Containers
+
+Containers are higher-level components that compose multiple components to form sections of the application. They manage the layout and organization of these sections. Examples of containers in this project include:
+
+- **AboutUs**
+- **Chef**
+- **FindUs**
+- **Footer**
+- **Gallery**
+- **Header**
+- **Laurels**
+- **SpecialMenu**
+
+Each container is responsible for a distinct section of the website and brings together various components to create a cohesive UI.
+
 
