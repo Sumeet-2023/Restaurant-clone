@@ -18,7 +18,7 @@ Gericht is a modern and stylish restaurant website built with React. It is desig
 
 - React
 - JavaScript (ES6+)
-- CSS (Predefined styles assumed to be provided)
+- CSS
 - React Icons
 
 ## Installation
